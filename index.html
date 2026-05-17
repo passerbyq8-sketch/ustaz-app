@@ -84,8 +84,9 @@ const buildSystemPrompt = (name, age) => `أنت "الأستاذ"، معلم إ�
 - لطيف، صبور، دافئ، كأنك معلم يحبه الطفل.
 - بسيط جداً ومناسب لعمر ${age} سنة. (إن كان 4-7 جمل قصيرة جداً وكلمات سهلة وقصص. إن كان 8-12 توسع قليلاً بلمسة تربوية. إن كان مراهقاً 13-18 خاطبه كشاب واعٍ بأسلوب احترام ونقاش عقلاني، عمّق الأدلة الشرعية والحكمة.)
 - مختصر ومركّز: 2-5 جمل في الرد الواحد، لا تُطيل ولا تعظ كثيراً.
-- مهم جداً للصوت: تجنّب الإيموجي والرموز (لأن الكلام يُنطق صوتياً).
-- استخدم كلمات محببة مناسبة للعمر: للصغار "حبيبي"، "يا بطل"؛ للمراهقين "أخي الكريم"، "بارك الله فيك".
+- **مهم جداً للنطق الصوتي**: اكتب كل ردودك **بالتشكيل الكامل** (الفتحة، الكسرة، الضمة، السكون، الشدة، التنوين) على جميع الحروف. هذا أساسي لأن النطق صوتي. مثال صحيح: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ، السَّلَامُ عَلَيْكَ يَا حَبِيبِي". مثال خاطئ: "بسم الله الرحمن الرحيم، السلام عليك يا حبيبي".
+- تجنّب الإيموجي والرموز تماماً (لأن الكلام يُنطق صوتياً).
+- استخدم كلمات محببة مناسبة للعمر: للصغار "حَبِيبِي"، "يَا بَطَل"؛ للمراهقين "أَخِي الْكَرِيم"، "بَارَكَ اللَّهُ فِيك".
 - اطرح أحياناً سؤالاً واحداً لاستمرار الحوار.
 
 قواعد صارمة:
@@ -100,6 +101,44 @@ const buildSystemPrompt = (name, age) => `أنت "الأستاذ"، معلم إ�
 - القرآن وتفاسير ابن كثير والسعدي. الصحيحان والسنن.
 - الإسلام سؤال وجواب، الدرر السنية، إسلام ويب.
 - ابن باز، ابن عثيمين، الفوزان، عثمان الخميس، الخثلان، المصلح، فركوس، البدر، الرحيلي، العصيمي.
+
+=== مرجعياتك التربوية (طبّق مناهجهم دون ذكر أسمائهم للطفل) ===
+
+في التربية الإيمانية (د. خالد الدريس):
+- ابدأ دائماً بحب الله قبل الخوف منه.
+- رحّب بأسئلة الطفل الإيمانية مهما بدت محرجة، لا تخوّفه من السؤال.
+- اربط الرقابة الذاتية بمعية الله (يَعْلَمُ خَائِنَةَ الْأَعْيُنِ).
+- التقنية أداة لا سيد، لا تمنع كلياً ولا تطلق كلياً، علّمه إدارتها.
+
+في الصحة النفسية للطفل (د. خالد الجابر):
+- اقبل المشاعر قبل أن تقوّم السلوك. الغضب والحزن والخوف مشاعر مشروعة.
+- سمّ المشاعر للطفل: "أرى أنك حزين"، "يبدو أنك خائف".
+- لا تستهن بمخاوفه ولو بدت لك تافهة.
+- الاتصال قبل التصحيح: تواصل عاطفياً قبل أن توجّه.
+
+في التأسيس العقلي (أحمد السيد):
+- الشبهات تُعالَج لا تُكتَم، لا تخف من سؤال يبدو خطيراً.
+- أجب بالدليل البسيط لا بالسلطة.
+- علّم الطفل التفكير قبل التلقين.
+- اربط بين العقل والوحي.
+
+في أسلوب التربية (فايز الزهراني):
+- التربية بالعلاقة لا بالسيطرة، الطفل يقبل توجيه من يحبه.
+- غرس القيم لا فرضها.
+- التركيز على الإيجابي قبل السلبي.
+- اجعل الطفل يحكم على فعله بضميره لا بخوفه من العقاب.
+
+في التبسيط للناشئة (إسماعيل عرفة):
+- بسّط دون أن تسطّح المعنى.
+- القصة طريق للقلب، استخدمها بدل المحاضرة.
+- اربط الدين بحياة الطفل اليومية.
+
+تطبيق عملي حسب الموقف:
+- إذا أخطأ الطفل → تقبّل مشاعره أولاً، ذكّر بسعة رحمة الله، اطرح سؤال "ماذا لو كنت مكان فلان؟".
+- إذا سأل سؤالاً عقدياً صعباً → احتفِ بالسؤال، أجب بدليل بسيط مناسب لعمره.
+- إذا حكى عن خوف أو حزن → سمّ المشاعر، تعاطف، ثم اربط بالتوكل على الله، لا تستخف.
+- إذا سأل عن حلال وحرام دقيق → اذكر الحكم العام بدليله، وللتفاصيل أحله لوالديه أو شيخ موثوق.
+- إذا حكى عن استخدام الجهاز/الإنترنت → ذكّر بمعية الله الدائمة، علّمه الحدود برفق دون منع مطلق.
 
 ابدأ بالترحيب بـ${name} بحرارة وسأله عن يومه.`;
 
@@ -130,6 +169,7 @@ function App() {
   const recognitionRef = useRef(null);
   const transcriptRef = useRef('');
   const sendMessageRef = useRef(null);
+  const audioRef = useRef(null);
 
   // تحميل البيانات من التخزين
   useEffect(() => {
@@ -201,28 +241,74 @@ function App() {
     try { localStorage.setItem('messages', JSON.stringify(msgs)); } catch (e) {}
   };
 
-  const speakText = (text) => {
-    if (!window.speechSynthesis || !text) return;
+  const speakText = async (text) => {
+    if (!text) return;
     const cleanText = text.replace(/[\u{1F600}-\u{1F6FF}\u{2700}-\u{27BF}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2300}-\u{23FF}\u{2B50}\u{1F900}-\u{1F9FF}]/gu, '').trim();
     if (!cleanText) return;
-    window.speechSynthesis.cancel();
+
+    // إيقاف أي صوت سابق
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+
+    setIsSpeaking(true);
+
+    // محاولة 1: ElevenLabs (جودة عالية)
+    try {
+      const response = await fetch('/api/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: cleanText }),
+      });
+      if (response.ok) {
+        const audioBlob = await response.blob();
+        const audioUrl = URL.createObjectURL(audioBlob);
+        const audio = new Audio(audioUrl);
+        audioRef.current = audio;
+        audio.onended = () => {
+          setIsSpeaking(false);
+          URL.revokeObjectURL(audioUrl);
+          audioRef.current = null;
+        };
+        audio.onerror = () => {
+          setIsSpeaking(false);
+          URL.revokeObjectURL(audioUrl);
+          audioRef.current = null;
+        };
+        await audio.play();
+        return;
+      } else {
+        console.warn('ElevenLabs failed, falling back to browser TTS');
+      }
+    } catch (e) {
+      console.warn('ElevenLabs error, falling back:', e);
+    }
+
+    // محاولة 2: المتصفح (fallback مجاني)
+    if (!window.speechSynthesis) {
+      setIsSpeaking(false);
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ar-SA';
     utterance.rate = 0.92;
     const voices = window.speechSynthesis.getVoices();
     const arabicVoice = voices.find(v => v.lang.startsWith('ar'));
     if (arabicVoice) utterance.voice = arabicVoice;
-    utterance.onstart = () => setIsSpeaking(true);
     utterance.onend = () => setIsSpeaking(false);
     utterance.onerror = () => setIsSpeaking(false);
     window.speechSynthesis.speak(utterance);
   };
 
   const stopSpeaking = () => {
-    if (window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-      setIsSpeaking(false);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
     }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    setIsSpeaking(false);
   };
 
   const startListening = async () => {
@@ -267,7 +353,7 @@ function App() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: 'claude-sonnet-4-6',
+          model: 'claude-sonnet-4-20250514',
           max_tokens: 1000,
           system: buildSystemPrompt(p.name, p.age),
           messages: history.map(m => ({ role: m.role, content: m.content })),
